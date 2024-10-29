@@ -1,0 +1,20 @@
+<VAST version="3.0">
+  <Ad id="1">
+    <InLine>
+      <AdSystem>Custom Ad Server</AdSystem>
+      <AdTitle>JT SWM - Test Audio Issue</AdTitle>
+      <Creatives>
+        <Creative id="jlhcfw93">
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
+                <![CDATA[https://www.example.com/path/to/your/video.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
