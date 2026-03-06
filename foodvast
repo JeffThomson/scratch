@@ -1,0 +1,45 @@
+<VAST version="4.2">
+  <Ad id="sample-ad-001">
+    <InLine>
+      <AdSystem version="1.0">Example Ad Server</AdSystem>
+      <AdTitle>Sample Video Ad</AdTitle>
+
+      <Impression><![CDATA[https://example.com/impression]]></Impression>
+
+      <Creatives>
+        <Creative id="creative-1" sequence="1">
+          <Linear>
+            <Duration>00:00:30</Duration>
+
+            <MediaFiles>
+              <MediaFile 
+                id="mediafile-1"
+                delivery="progressive"
+                type="video/mp4"
+                width="1920"
+                height="1080"
+                bitrate="800"
+                scalable="true"
+                maintainAspectRatio="true">
+                <![CDATA[https://nc.jeffthomson.com/s/oaeiaE5DKLg3W9z/download/YOU9563151_BVOD_BVOD_0.8.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://example.com/start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://example.com/firstQuartile]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://example.com/midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://example.com/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://example.com/complete]]></Tracking>
+            </TrackingEvents>
+
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://example.com/clickthrough]]></ClickThrough>
+            </VideoClicks>
+
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
