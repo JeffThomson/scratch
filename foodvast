@@ -1,13 +1,13 @@
-<VAST version="4.2">
-  <Ad id="sample-ad-001">
-    <InLine>
-      <AdSystem version="1.0">Example Ad Server</AdSystem>
-      <AdTitle>Sample Video Ad</AdTitle>
 
-      <Impression><![CDATA[https://example.com/impression]]></Impression>
-
-      <Creatives>
-        <Creative id="creative-1" sequence="1">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+ <Ad id="4431537374566123">
+  <InLine>
+   <AdSystem>DBM</AdSystem>
+   <AdTitle>In-Stream Video</AdTitle>
+    <Impression><![CDATA[https://example.com/impression]]></Impression>
+    <Creatives>
+        <Creative id="creative-1-123334" sequence="1">
           <Linear>
             <Duration>00:00:30</Duration>
 
