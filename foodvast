@@ -1,45 +1,78 @@
+<VAST xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0">
+<Ad id="130847179">
+<Wrapper>
+<AdSystem>DCM</AdSystem>
 
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:noNamespaceSchemaLocation="vast.xsd">
- <Ad id="4431537374566123">
-  <InLine>
-   <AdSystem>DBM</AdSystem>
-   <AdTitle>In-Stream Video</AdTitle>
-    <Impression><![CDATA[https://example.com/impression]]></Impression>
-    <Creatives>
-        <Creative id="creative-1-123334" sequence="1">
-          <Linear>
-            <Duration>00:00:30</Duration>
-
-            <MediaFiles>
-              <MediaFile 
-                id="mediafile-1"
-                delivery="progressive"
-                type="video/mp4"
-                width="1920"
-                height="1080"
-                bitrate="800"
-                scalable="true"
-                maintainAspectRatio="true">
-                <![CDATA[https://nc.jeffthomson.com/s/oaeiaE5DKLg3W9z/download/YOU9563151_BVOD_BVOD_0.8.mp4]]>
-              </MediaFile>
-            </MediaFiles>
-
-            <TrackingEvents>
-              <Tracking event="start"><![CDATA[https://example.com/start]]></Tracking>
-              <Tracking event="firstQuartile"><![CDATA[https://example.com/firstQuartile]]></Tracking>
-              <Tracking event="midpoint"><![CDATA[https://example.com/midpoint]]></Tracking>
-              <Tracking event="thirdQuartile"><![CDATA[https://example.com/thirdQuartile]]></Tracking>
-              <Tracking event="complete"><![CDATA[https://example.com/complete]]></Tracking>
-            </TrackingEvents>
-
-            <VideoClicks>
-              <ClickThrough><![CDATA[https://example.com/clickthrough]]></ClickThrough>
-            </VideoClicks>
-
-          </Linear>
-        </Creative>
-      </Creatives>
-    </InLine>
-  </Ad>
+<Error>
+https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIs6Xso5aKkwMVjy6DAx18-Q_rEAAYACCqsbp3SABQOljjdWDczdgQaM78yNAB;dc_eps=AHas8cBJbgPExe0r6z9otr8ScVhTjqUP-MWvj0jp-MRNKgDzLEf_LjPsYeexls1V95I719znHfd3svxjQieomb5JUi0;met=1;ecn1=1;etm1=0;eid1=200015;
+</Error>
+<Impression>
+https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjssfPMks35L72tSLK_M5-OK_P6J8xncU45LM977O7pa-SYvGKawFJXOMeg0QFv5vRbOXEQ4XxwtkEijfVE-EX6S_Yq3ovpR59at8JmZhCBy0nqvHDRMuQxcm0kyEZqa9RQTn_zR1hPNO2ym35Xa569PnR4DqXi5dncGJswXhhHiaTlc&sai=AMfl-YQgBfAAyMVsVBT7sgo4Tq556fKiFHgNStkanYcyqNpkx9l5fXeu_8O9LR0lZutalpxHvNjQGmelVrRjKZ89tIjT3uY_IqBHPDAT0YtCPjezfDqZRAJQ5C2268ZaHhI4UV2mAHZES05mU8TA1qloRg-DEaMC5Ud_iZ2Qa-zaiuf7gGVv0rUcWtDUiufrb2J4yzkJ-Ls2m_3KsowAmOK-TNOj7d-lWwigHGYXNoEcQQr2zQ&sig=Cg0ArKJSzJoF0qS_cEscEAE&uach_m=%5BUACH%5D&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=
+</Impression>
+<Creatives>
+<Creative id="150517674" AdID="150517674-1" sequence="1">
+<Linear>
+<Duration>00:00:30</Duration>
+<MediaFiles>
+<MediaFile id="150517674-1" delivery="progressive"type="video/mp4" width="1920" height="1080" bitrate="800" scalable="true" maintainAspectRatio="true">
+<![CDATA[https://nc.jeffthomson.com/s/oaeiaE5DKLg3W9z/download/YOU9563151_BVOD_BVOD_0.8.mp4]]>
+</MediaFile>
+</MediaFiles>
+<TrackingEvents>
+<Tracking event="start">
+https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIs6Xso5aKkwMVjy6DAx18-Q_rEAAYACCqsbp3SABQOljjdWDczdgQaM78yNAB;dc_eps=AHas8cBJbgPExe0r6z9otr8ScVhTjqUP-MWvj0jp-MRNKgDzLEf_LjPsYeexls1V95I719znHfd3svxjQieomb5JUi0;met=1;ecn1=1;etm1=0;eid1=11;
+</Tracking>
+<Tracking event="firstQuartile">
+https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIs6Xso5aKkwMVjy6DAx18-Q_rEAAYACCqsbp3SABQOljjdWDczdgQaM78yNAB;dc_eps=AHas8cBJbgPExe0r6z9otr8ScVhTjqUP-MWvj0jp-MRNKgDzLEf_LjPsYeexls1V95I719znHfd3svxjQieomb5JUi0;met=1;ecn1=1;etm1=0;eid1=960584;
+</Tracking>
+<Tracking event="midpoint">
+https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIs6Xso5aKkwMVjy6DAx18-Q_rEAAYACCqsbp3SABQOljjdWDczdgQaM78yNAB;dc_eps=AHas8cBJbgPExe0r6z9otr8ScVhTjqUP-MWvj0jp-MRNKgDzLEf_LjPsYeexls1V95I719znHfd3svxjQieomb5JUi0;met=1;ecn1=1;etm1=0;eid1=18;
+</Tracking>
+<Tracking event="thirdQuartile">
+https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIs6Xso5aKkwMVjy6DAx18-Q_rEAAYACCqsbp3SABQOljjdWDczdgQaM78yNAB;dc_eps=AHas8cBJbgPExe0r6z9otr8ScVhTjqUP-MWvj0jp-MRNKgDzLEf_LjPsYeexls1V95I719znHfd3svxjQieomb5JUi0;met=1;ecn1=1;etm1=0;eid1=960585;
+</Tracking>
+<Tracking event="complete">
+https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIs6Xso5aKkwMVjy6DAx18-Q_rEAAYACCqsbp3SABQOljjdWDczdgQaM78yNAB;dc_eps=AHas8cBJbgPExe0r6z9otr8ScVhTjqUP-MWvj0jp-MRNKgDzLEf_LjPsYeexls1V95I719znHfd3svxjQieomb5JUi0;met=1;ecn1=1;etm1=0;eid1=13;
+</Tracking>
+<Tracking event="mute">
+https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIs6Xso5aKkwMVjy6DAx18-Q_rEAAYACCqsbp3SABQOljjdWDczdgQaM78yNAB;dc_eps=AHas8cBJbgPExe0r6z9otr8ScVhTjqUP-MWvj0jp-MRNKgDzLEf_LjPsYeexls1V95I719znHfd3svxjQieomb5JUi0;met=1;ecn1=1;etm1=0;eid1=16;
+</Tracking>
+<Tracking event="unmute">
+https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIs6Xso5aKkwMVjy6DAx18-Q_rEAAYACCqsbp3SABQOljjdWDczdgQaM78yNAB;dc_eps=AHas8cBJbgPExe0r6z9otr8ScVhTjqUP-MWvj0jp-MRNKgDzLEf_LjPsYeexls1V95I719znHfd3svxjQieomb5JUi0;met=1;ecn1=1;etm1=0;eid1=149645;
+</Tracking>
+<Tracking event="pause">
+https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIs6Xso5aKkwMVjy6DAx18-Q_rEAAYACCqsbp3SABQOljjdWDczdgQaM78yNAB;dc_eps=AHas8cBJbgPExe0r6z9otr8ScVhTjqUP-MWvj0jp-MRNKgDzLEf_LjPsYeexls1V95I719znHfd3svxjQieomb5JUi0;met=1;ecn1=1;etm1=0;eid1=15;
+</Tracking>
+<Tracking event="fullscreen">
+https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIs6Xso5aKkwMVjy6DAx18-Q_rEAAYACCqsbp3SABQOljjdWDczdgQaM78yNAB;dc_eps=AHas8cBJbgPExe0r6z9otr8ScVhTjqUP-MWvj0jp-MRNKgDzLEf_LjPsYeexls1V95I719znHfd3svxjQieomb5JUi0;met=1;ecn1=1;etm1=0;eid1=19;
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickTracking>https://s0.2mdn.net/dot.gif</ClickTracking>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+<Extensions>
+<Extension type="geo">
+<Country>AU</Country>
+<Bandwidth>4</Bandwidth>
+<BandwidthKbps>20000</BandwidthKbps>
+</Extension>
+<Extension type="dart">
+<AdServingData>
+<DeliveryData>
+<GeoData>ct=AU&st=&city=185&dma=0&zp=2148&bw=4</GeoData>
+</DeliveryData>
+</AdServingData>
+</Extension>
+<Extension type="GDCM">
+<UniversalAdId>
+<Id>250517674-1</Id>
+<InCreativeAdId>Yes</InCreativeAdId>
+</UniversalAdId>
+</Extension>
+</Extensions>
+</Wrapper>
+</Ad>
 </VAST>
